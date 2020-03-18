@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navi-cover">
+            <div class="left-side">
+                <div class="navi-link-cover active-navi-link">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <div class="navi-link-cover">
+                    <a href="about.html">About</a>
+                </div>
+                
+            </div>
+
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>UKHUREBOR NATHANIEL OSAGIE</div>
+                </div>
+                
+            </div>
+                
+        </div>
+        <div class="content-cover">
+            <div class="bishop-items-cover">
+
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop1.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            The aim of this platform is to see how i can make interested people have love for the power sector
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop2.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            We are aimed at helping people who are new in the filed get use to some electrical signs
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop3.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            It is important to let the people know the essence of improving the power sectior
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop4.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            The platform will be helpful in multiple areas that concerns power generation
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop5.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            I took this this image because of its importance and i hope it helps
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop6.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            This will also help visitors of this site understand some electrical terms
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop7.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            One of the signs that can understand the concept of power
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop8.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            I got this sign also in addition with other signs to ease the understanding of people 
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop9.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            If you are new to the power sector, this will help you learn fast.
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop10.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            I signs are also available for the general public to access at any time
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop11.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            The aim of this platform is also to see how i can make the love for power generation grow repidly
+                        </div>
+                    </div>
+                </div>
+                <div class="bishop-item-cover">
+                    <div class="bishop-img-background" style="background-image:url(images/bishop12.jpg)"></div>
+
+                    <div class="img-text-cover">
+
+
+                        <div class="subtitle">
+                            I hope that this sign will help as well as other signs in this site
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    const bishopitems = document.querySelectorAll('.bishop-item-cover');
+
+    bishopitems.forEach(bishopitem => {
+        bishopitem.addEventListener('mouseover', () => {
+            bishopitem.childNodes[1].classList.add('img-darken');
+
+        })
+        bishopitem.addEventListener('mouseout', () => {
+            bishopitem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+</html>

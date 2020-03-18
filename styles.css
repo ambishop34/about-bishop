@@ -1,0 +1,111 @@
+/* body style */
+body {
+    font-family: "Baloo2", sans-serif;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* navi style */
+
+.navi-cover {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px;
+}
+.left-side {
+    display: flex;
+}
+.navi-cover > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.navi-link-cover {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navi-link-cover a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+.navi-link-cover:hover {
+    border-bottom:  1px #008000;
+}
+.navi-link-cover a:hover {
+    color: #008000;
+}
+.active-navi-link {
+    border-bottom: 1px solid black;
+}
+.active-navi-link a {
+    color:  black !important;
+}
+/* bishop styles */
+.bishop-items-cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bishop-item-cover {
+    position: relative;
+}
+.bishop-img-background {
+    height: 250px;
+    width: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-text-cover {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img-text-cover .subtitle {
+    transition: 1s;
+    font-weight: 700;
+    color: transparent;
+}
+
+
+.img-text-cover:hover .subtitle {
+    font-weight: 550;
+    color: lightseagreen;
+}
+.img-darken {
+    transition: 1000ms;
+    filter: brightness(10%);
+}
+/*the about page style*/
+.two-column-cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-image-cover img {
+    width: 100%;
+}
+.profile-content-cover {
+    padding: 30px;
+}
+.profile-content-cover h1 {
+    color: royalblue;
+}
+.profile-content-cover > p {
+    font-family: tahoma;
+    color: black;
+    text-align: justify;
+    line-height: 1.3rem;
+    
+
+}
